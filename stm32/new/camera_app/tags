@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+VideoBuffer	ov5640_camera_app.c	/^typedef struct VideoBuffer {$/;"	s	file:
+VideoBuffer	ov5640_camera_app.c	/^} VideoBuffer;$/;"	t	typeref:struct:VideoBuffer	file:
+buffers	ov5640_camera_app.c	/^VideoBuffer *buffers;$/;"	v
+build_picture	ov5640_camera_app.c	/^int build_picture(void *addr,int length)$/;"	f
+camera_device_open	ov5640_camera_app.c	/^int camera_device_open(const char * dev)$/;"	f
+init_camera_attribute	ov5640_camera_app.c	/^int init_camera_attribute(int fd)$/;"	f
+length	ov5640_camera_app.c	/^	size_t  length;$/;"	m	struct:VideoBuffer	file:
+main	ov5640_camera_app.c	/^int main(int argc, const char *argv[])$/;"	f
+read_image	ov5640_camera_app.c	/^int read_image(int fd)$/;"	f
+start	ov5640_camera_app.c	/^	void   *start;$/;"	m	struct:VideoBuffer	file:
+start_capturing	ov5640_camera_app.c	/^int start_capturing(int fd)$/;"	f
+stop_capturing	ov5640_camera_app.c	/^int stop_capturing(int fd)$/;"	f
+uninit_camera	ov5640_camera_app.c	/^int uninit_camera(int fd)$/;"	f
+when_to_read	ov5640_camera_app.c	/^int when_to_read(int fd)$/;"	f
